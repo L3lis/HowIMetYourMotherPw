@@ -1,0 +1,72 @@
+* {
+    background-color:rgb(177, 135, 44);
+    padding: 5px;
+}
+
+    .bnt-link {
+        padding: 10px 8px;
+        margin: 5px;
+        width: 300px;
+        color:bisque;
+        background:rgb(58, 46, 6);
+        border: 1px solid #5555;
+        border-radius: 5px;
+        text-align: center;
+        cursor: pointer;
+        user-select: none;
+        text-decoration: none;
+    }
+
+    .bnt-link:hover {
+        background:rgb(71, 58, 13);
+        transition: background 10ms;
+        color: #fcefcc;
+                    }
+
+h1 {
+    color: white;
+    background-color: rgb(58, 46, 6);
+    font-size:xx-large;
+    text-align: center;
+    border-radius: 9px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.25);
+    }
+
+p {
+    color:black;
+    font-size: medium;
+    text-align: center;
+    font-family: system-ui,-apple-system,system-ui,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    background-color: rgb(146, 86, 43);
+    border-style: ridge;
+    }
+
+#botao {
+    text-align: center;
+}
+
+#container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 150px;
+    grid-template-areas: "box-2       box-4       box-3";
+    grid-gap: 17px;}
+
+#box-2 {
+    grid-area: box-2;
+    background-color: rgb(177, 135, 44);}
+    
+#box-3 {
+    grid-area: box-3;
+    background-color: rgb(177, 135, 44);
+}
+    
+#box-4 {
+    grid-area: box-4;
+}
+
+img {
+    height: 70vh;
+    box-shadow: 10px 100px 100px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+}
